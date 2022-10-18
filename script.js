@@ -17,3 +17,12 @@ let string = reversed.join(' ');
 console.log(string);
 result2.innerHTML = string;
 //#endregion
+
+//#region  Finish ...
+let full_Name = "Bayramov Rufat";
+let array_one = full_Name.split(' ');
+let reversed_array = array_one.reverse();
+let string_array = reversed_array.join(' ');
+console.log(string_array);
+result3.innerHTML = string_array; 
+//#endregion
